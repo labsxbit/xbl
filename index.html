@@ -12,6 +12,8 @@ Website: MU tutorials
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="style.css">
 
   <style>
     .copyright {
@@ -43,7 +45,6 @@ Website: MU tutorials
     }
 
 
-
   </script>
 </head>
 
@@ -65,7 +66,7 @@ Website: MU tutorials
       <div class="w3-right w3-hide-small">
         <a href="#" class="w3-bar-item w3-button w3-text-indigo">Home</a>
         <a href="#" class="w3-bar-item w3-button w3-text-indigo">About</a>
-        <a href="#subject" class="w3-bar-item w3-button w3-text-indigo">Subjects</a>
+        <a href="#tutorial" class="w3-bar-item w3-button w3-text-indigo">tutorials</a>
         <a href="#service" class="w3-bar-item w3-button w3-text-indigo">Services</a>
         <a href="#blog" class="w3-bar-item w3-button w3-text-indigo">Blog</a>
         <a href="#contact" class="w3-bar-item w3-button w3-text-indigo">Contact</a>
@@ -77,7 +78,7 @@ Website: MU tutorials
   <div class="w3-container w3-grey">
     <div class="w3-content w3-display-container w3-half">
       <p>
-      
+
         Welcome to XBit Labs: Software Training Institute
         <br>
         - World's largest e-learning platform
@@ -109,16 +110,19 @@ Website: MU tutorials
       <button class="w3-button w3-black w3-display-left" onclick="plusDivs(-1)">&#10094;</button>
       <button class="w3-button w3-black w3-display-right" onclick="plusDivs(1)">&#10095;</button>
 
-      <p><button class="w3-button w3-light-grey w3-block">Provides tutorial for web</button></p>
+      <p><button class="w3-button w3-light-grey w3-block" onclick="window.location.href='http://training.xbitlabs.in';"">Enroll for Software Training </button></p>
     </div>
   </div>
 
   <!-- Grid 1-->
-  <div class="w3-row-padding" id="subject">
+  <div class="w3-row-padding" id="tutorial">
     <div class="w3-center w3-padding-64">
       <span class="w3-xlarge w3-bottombar w3-border-dark-grey w3-padding-16">Tutorials</span>
     </div>
 
+    <p>
+    <h1>Website development courses </h1>
+    </p>
     <div class="w3-third w3-margin-bottom">
       <div class="w3-card-4">
         <div class="w3-container">
@@ -127,7 +131,13 @@ Website: MU tutorials
           <p>UI and UX</p>
         </div>
         <img src="Image/img1.jpg" alt="" style="width:100%">
-        <p><button class="w3-button w3-light-grey w3-block">Read more</button></p>
+
+        <p>
+          <button class="w3-button w3-light-grey w3-block" onclick="window.location.href='courses/ui_ux.html';">
+            Read more
+          </button>
+        </p>
+
       </div>
     </div>
 
@@ -138,7 +148,7 @@ Website: MU tutorials
           <p class="w3-opacity">Learn latest web technologies - HTML, CSS, JavaScript</p>
           <p>Web - Responsive</p>
           <img src="Image/img2.jpg" alt="" style="width:100%">
-          <p><button class="w3-button w3-light-grey w3-block">Read more</button></p>
+          <p><button class="w3-button w3-light-grey w3-block" onclick="window.location.href='courses/web_dev.html';">Read more</button></p>
         </div>
       </div>
     </div>
@@ -150,11 +160,53 @@ Website: MU tutorials
           <p class="w3-opacity">Material, frontend, HTML, graphics</p>
           <p>Frontend</p>
           <img src="Image/img5.png" alt="" style="width:100%">
-          <p><button class="w3-button w3-light-grey w3-block">Read more</button></p>
+          <p><button class="w3-button w3-light-grey w3-block" onclick="window.location.href='courses/web_design.html';">Read more</button></p>
+        </div>
+      </div>
+    </div>
+
+    <p align='center'>
+    <h1>Programming courses </h1>
+    </p>
+
+    <div class="w3-third w3-margin-bottom">
+      <div class="w3-card-4">
+        <div class="w3-container">
+          <h3>Web designing</h3>
+          <p class="w3-opacity">Material, frontend, HTML, graphics</p>
+          <p>Frontend</p>
+          <img src="Image/img5.png" alt="" style="width:100%">
+          <p><button class="w3-button w3-light-grey w3-block" onclick="window.location.href='courses/web_design.html';">Read more</button></p>
+        </div>
+      </div>
+    </div>
+
+    <div class="w3-third w3-margin-bottom">
+      <div class="w3-card-4">
+        <div class="w3-container">
+          <h3>Web designing</h3>
+          <p class="w3-opacity">Material, frontend, HTML, graphics</p>
+          <p>Frontend</p>
+          <img src="Image/img5.png" alt="" style="width:100%">
+          <p><button class="w3-button w3-light-grey w3-block" onclick="window.location.href='courses/web_design.html';">Read more</button></p>
+        </div>
+      </div>
+    </div>
+
+
+    <div class="w3-third w3-margin-bottom">
+      <div class="w3-card-4">
+        <div class="w3-container">
+          <h3>Web designing</h3>
+          <p class="w3-opacity">Material, frontend, HTML, graphics</p>
+          <p>Frontend</p>
+          <img src="Image/img5.png" alt="" style="width:100%">
+          <p><button class="w3-button w3-light-grey w3-block" onclick="window.location.href='courses/web_design.html';">Read more</button></p>
         </div>
       </div>
     </div>
   </div>
+
 
   <!-- Grid 2-->
   <div class="w3-row-padding" id="service">
@@ -169,7 +221,7 @@ Website: MU tutorials
           <h3>Universities</h3>
           <p class="w3-opacity">Learn UI and UX</p>
           <p>Info regarding the universities in India and abroad</p>
-          <p><button class="w3-button w3-light-grey w3-block">Read more</button></p>
+          <p><button class="w3-button w3-light-grey w3-block" onclick="">Read more</button></p>
         </div>
       </div>
     </div>
@@ -204,10 +256,13 @@ Website: MU tutorials
     <p class="w3-center">
       <br>
       <br>
-      Find us on Facebook
+      <!--Find us on Facebook-->
     </p>
     <p class="w3-center">
-      <a href="#fblink" class="w3-bar-item w3-button w3-black"><b>Facebook</b></a>
+      <!--<a href="#fblink" class="w3-bar-item w3-button w3-black"><b>Facebook</b></a>-->
+      <a href="#" class="fa fa-facebook"></a>
+      <a href="#" class="fa fa-youtube"></a>
+      <a href="#" class="fa fa-instagram"></a>
     </p>
   </div>
 
@@ -216,13 +271,13 @@ Website: MU tutorials
     <div class="w3-Left  w3-hide-small">
       <a href="#" class="w3-bar-item w3-button w3-text-green">Home</a>
       <a href="#" class="w3-bar-item w3-button w3-text-green">About</a>
-      <a href="#subject" class="w3-bar-item w3-button w3-text-green">Subjects</a>
+      <a href="#tutorial" class="w3-bar-item w3-button w3-text-green">tutorials</a>
       <a href="#service" class="w3-bar-item w3-button w3-text-green">Services</a>
       <a href="#blog" class="w3-bar-item w3-button w3-text-green">Blog</a>
       <a href="#contact" class="w3-bar-item w3-button w3-text-green">Contact</a>
     </div>
-    <p class="w3-center w3-text-green">Copyright &copy; 2019 <a href="#" title="mu t" target="_blank"
-        class="w3-hover-text-green">MU Tutorials</a></p>
+    <p class="w3-center w3-text-green">Copyright &copy; 2023 <a href="http://xbitlabs.in" title="xbitlabs.in" target="_blank"
+        class="w3-hover-text-green">XBit Labs -  xbitlabs.in</a></p>
   </footer>
 
   <script>
